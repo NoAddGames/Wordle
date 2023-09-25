@@ -1,6 +1,6 @@
 # Wordle
 
-A simple implementation of the wordle game in [Godot](https://godotengine.org) game engine.
+A simple implementation of the game [Wordle](https://en.wikipedia.org/wiki/Wordle) in [Godot](https://godotengine.org) game engine.
 
 ## Disclaimer
 
