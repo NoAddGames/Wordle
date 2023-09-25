@@ -121,3 +121,8 @@ column = 5
 letter = "M"
 row = 2
 column = 6
+
+[node name="Letter" parent="." instance=ExtResource("1_d57wk")]
+letter = "↶"
+row = 2
+column = 7
