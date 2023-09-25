@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://bwe14v1nlomct"]
+
+[ext_resource type="Script" path="res://game.gd" id="1_2elpi"]
+[ext_resource type="PackedScene" uid="uid://ct5jgkqialdn1" path="res://keyboard.tscn" id="2_yf44v"]
+
+[node name="Game" type="Node"]
+script = ExtResource("1_2elpi")
+
+[node name="Keyboard" parent="." instance=ExtResource("2_yf44v")]
+position = Vector2(25, 930)

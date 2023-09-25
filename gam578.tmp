@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwe14v1nlomct"]
+
+[ext_resource type="Script" path="res://Game.gd" id="1_oepxq"]
+
+[node name="Game" type="Node"]
+script = ExtResource("1_oepxq")
+
+[node name="Button" type="Button" parent="."]
+offset_right = 8.0
+offset_bottom = 8.0

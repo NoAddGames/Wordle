@@ -1,0 +1,123 @@
+[gd_scene load_steps=2 format=3 uid="uid://ct5jgkqialdn1"]
+
+[ext_resource type="PackedScene" uid="uid://dnbw0em48k0cb" path="res://letter.tscn" id="1_d57wk"]
+
+[node name="Keyboard" type="Node2D"]
+position = Vector2(195, 998)
+
+[node name="LetterQ" parent="." instance=ExtResource("1_d57wk")]
+letter = "Q"
+
+[node name="LetterW" parent="." instance=ExtResource("1_d57wk")]
+letter = "W"
+column = 1
+
+[node name="LetterE" parent="." instance=ExtResource("1_d57wk")]
+letter = "E"
+column = 2
+
+[node name="LetterR" parent="." instance=ExtResource("1_d57wk")]
+letter = "R"
+column = 3
+
+[node name="LetterT" parent="." instance=ExtResource("1_d57wk")]
+letter = "T"
+column = 4
+
+[node name="LetterY" parent="." instance=ExtResource("1_d57wk")]
+letter = "Y"
+column = 5
+
+[node name="LetterU" parent="." instance=ExtResource("1_d57wk")]
+letter = "U"
+column = 6
+
+[node name="LetterI" parent="." instance=ExtResource("1_d57wk")]
+letter = "I"
+column = 7
+
+[node name="LetterO" parent="." instance=ExtResource("1_d57wk")]
+letter = "O"
+column = 8
+
+[node name="LetterP" parent="." instance=ExtResource("1_d57wk")]
+letter = "P"
+column = 9
+
+[node name="LetterA" parent="." instance=ExtResource("1_d57wk")]
+letter = "A"
+row = 1
+
+[node name="LetterS" parent="." instance=ExtResource("1_d57wk")]
+letter = "S"
+row = 1
+column = 1
+
+[node name="LetterD" parent="." instance=ExtResource("1_d57wk")]
+letter = "D"
+row = 1
+column = 2
+
+[node name="LetterF" parent="." instance=ExtResource("1_d57wk")]
+letter = "F"
+row = 1
+column = 3
+
+[node name="LetterG" parent="." instance=ExtResource("1_d57wk")]
+letter = "G"
+row = 1
+column = 4
+
+[node name="LetterH" parent="." instance=ExtResource("1_d57wk")]
+letter = "H"
+row = 1
+column = 5
+
+[node name="LetterJ" parent="." instance=ExtResource("1_d57wk")]
+letter = "J"
+row = 1
+column = 6
+
+[node name="LetterK" parent="." instance=ExtResource("1_d57wk")]
+letter = "K"
+row = 1
+column = 7
+
+[node name="LetterL" parent="." instance=ExtResource("1_d57wk")]
+letter = "L"
+row = 1
+column = 8
+
+[node name="LetterZ" parent="." instance=ExtResource("1_d57wk")]
+letter = "Z"
+row = 2
+
+[node name="LetterX" parent="." instance=ExtResource("1_d57wk")]
+letter = "X"
+row = 2
+column = 1
+
+[node name="LetterC" parent="." instance=ExtResource("1_d57wk")]
+letter = "C"
+row = 2
+column = 2
+
+[node name="LetterV" parent="." instance=ExtResource("1_d57wk")]
+letter = "V"
+row = 2
+column = 3
+
+[node name="LetterB" parent="." instance=ExtResource("1_d57wk")]
+letter = "B"
+row = 2
+column = 4
+
+[node name="LetterN" parent="." instance=ExtResource("1_d57wk")]
+letter = "N"
+row = 2
+column = 5
+
+[node name="LetterM" parent="." instance=ExtResource("1_d57wk")]
+letter = "M"
+row = 2
+column = 6
